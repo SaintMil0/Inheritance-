@@ -1,0 +1,16 @@
+// ===== Code from file StudentDerivationFromPerson.java =====
+public class StudentDerivationFromPerson {
+   public static void main(String[] args) {
+      Student courseStudent = new Student();
+
+      // Assign values
+      courseStudent.setName("Smith");
+      courseStudent.setAge(20);
+      courseStudent.setID(9999);
+
+      // Print all details
+      courseStudent.printAll();
+      System.out.println(", ID: " + courseStudent.getID());
+   }
+}
+// ===== end =====
